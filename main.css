@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex: 0 1 50px;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  padding: 10px;
+}
+
+#main {
+  flex: 1 1 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: red;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#about {
+  background: blue;
+  color: white;
+  min-height: 50px;
+  padding: 10px;
+  flex: 1 1 500px;
+}
+
+#contact {
+  padding: 10px;
+  background: red;
+  text-align: center;
+  color: white;
+}
+
+table {
+  width: 100%;
+  padding: 10px;
+}
