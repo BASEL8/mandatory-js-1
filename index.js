@@ -6,7 +6,7 @@ document.getElementsByTagName('header')[0].children[0].innerHTML = document.getE
 document.getElementsByTagName('header')[0].children[1].children[2].children[0].innerHTML = document.getElementsByTagName(
   'header')[0].children[1].children[2].children[0].innerHTML.replace(
   'Bananas', 'Vegetables');
-
+document.getElementsByTagName('header')[0].children[1].children[2].children[0].href = '#vegetables'
 // change the position of the contact section;
 var contact_section = document.getElementById('contact');
 document.getElementById('main').appendChild(contact_section);
